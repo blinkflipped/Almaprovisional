@@ -6,448 +6,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-/* General **************************************************************************************************************/
-body {
-    font-size: 1.8rem;
-}
-
-.body_clase:not(.edit) .content-wrapper {
-    padding-top: 100px;
-    padding-bottom: 0;
-}
-
-.body_clase.edit .content-wrapper {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-body.is_app .content-wrapper,
-body.app:not(.offline-pc) .content-wrapper,
-body.user_demo .content-wrapper {
-    margin-top: 60px;
-}
-
-.is_app.content_type_clase_alma_newitalianespresso {
-    padding-top: 0px;
-}
-
-#actividad .carousel-inner .item-container {
-    background-image: none;
-    margin: 20px auto 30px;
-    padding: 80px 90px;
-    position: relative;
-}
-
-.content_type_clase_alma_newitalianespresso #actividad .content .header .title img,
-.content_type_clase_alma_newitalianespresso #actividad .content .header .chapter {
-    display: none;
-}
-
-.content_type_clase_alma_newitalianespresso #actividad .content .header {
-    height: auto;
-    overflow: hidden;
-    border: none;
-}
-
-.content_type_clase_alma_newitalianespresso #actividad .content .header .title {
-    height: auto;
-    overflow: hidden;
-    margin-bottom: 15px;
-    padding-right: 100px;
-    line-height: 2.7rem;
-}
-
-.content_type_clase_alma_newitalianespresso #actividad .content .header .title h3 {
-    margin: 0;
-    color: #58585A;
-    font-size: 2.7rem;
-    font-weight: bold;
-    line-height: 2.7rem;
-}
-
-.content_type_clase_alma_newitalianespresso #actividad .content .header .title h3 span.slide_number {
-    position: absolute;
-    top: 60px;
-    right: 90px;
-    display: block;
-    width: 90px;
-    border-radius: 10px;
-    background: #58585A;
-    padding: 0 25px;
-    color: #fff;
-    text-align: right;
-    line-height: 7rem;
-}
-
-.texto_curso p:last-of-type {
-    margin-bottom: 20px;
-}
-
-.texto_curso p:last-child {
-    margin-bottom: 0;
-}
-
-/* Navbar ************************************************************************************************************/
-.navbar-bottom {
-    background: #eee;
-    display: none;
-}
-.edit .navbar-bottom {
-    display: block;
-}
-.slider-indicators {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.slider-indicators li,
-.edit .slider-indicators li {
-    background-color: #ffca04;
-    color: #ffffff ;
-    opacity: 0.5;
-}
-
-.slider-indicators .active,
-.slider-indicators li:hover,
-.edit .slider-indicators li.active,
-.edit .slider-indicators .concat.active {
-    opacity: 1;
-}
-.edit .slider-indicators .concat.active {
-    color: #ffca04 ;
-}
-
-/* Navbar (Breadcums) **********************************************************************************************/
-.content_type_clase_alma_newitalianespresso .publisher-navbar {
-    position: fixed;
-    top: 44px;
-    background: #ffffff;
-    width: 100%;
-    left: 0;
-    height: 58px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 0 9px;
-}
-
-.is_app.content_type_clase_alma_newitalianespresso .publisher-navbar {
-    position: sticky;
-    top: 0px;
-}
-
-#top-navigator {
-    height: 44px;
-    overflow: hidden;
-    position: relative;
-}
-
-#top-navigator.show_left:before {
-    background: none;
-    display: none;
-}
-
-#top-navigator.show_right:after {
-    background: none;
-    display: none;
-}
-
-.content_type_clase_alma_newitalianespresso .publisher-navbar .navbar-content {
-    max-width: 960px;
-    margin: 0 auto;
-    padding-left: 90px;
-    padding-right: 50px;
-}
-
-.content_type_clase_alma_newitalianespresso .logo-publisher {
-    display: block;
-    margin-left: -48px;
-}
-.content_type_clase_alma_newitalianespresso .logo-publisher:before {
-    content: " ";
-    background-image: url(logoALMA.png);
-    height: 36px;
-    background-repeat: no-repeat;
-    width: 100px;
-    margin-left: -50px;
-    margin-top: 10px;
-    margin-right: 10px;
-    float: left;
-    background-size: contain;
-}
-
-.content_type_clase_alma_newitalianespresso .slider-indicators {
-    padding: 0;
-    display: inline-block;
-    text-align: left;
-    position: relative;
-    width: 5000px;
-    bottom: 0px;
-    left: 0px;
-    z-index: 0;
-    background-color: #ffffff;
-    color: #00599C;
-}
-
-.content_type_clase_alma_newitalianespresso .publisher-navbar #top-navigator .slider-indicators {
-    background: #D52422;
-}
-.content_type_clase_alma_newitalianespresso .publisher-navbar #top-navigator .slider-indicators {
-    border-radius: 120px;
-}
-
-.content_type_clase_alma_newitalianespresso .publisher-navbar li {
-    border-radius: 5px;
-    border: none;
-    background-color: transparent;
-    color: #ffffff;
-    vertical-align: middle;
-    margin: 0px 5px;
-    text-indent: 0px;
-    line-height: 3.5rem;
-    font-size: 2.0rem;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.content_type_clase_alma_newitalianespresso .slider-indicators:after {
-    content: '';
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-}
-
-.content_type_clase_alma_newitalianespresso .slider-indicators li {
-    width: 35px;
-    height: 35px;
-    background-color: transparent;
-    margin: 0px;
-    text-align: center;
-    opacity: 0.5;
-    position: relative;
-    float: left;
-}
-
-.content_type_clase_alma_newitalianespresso .slider-indicators li:first-child {
-    margin-left: 10px;
-}
-
-.content_type_clase_alma_newitalianespresso .slider-indicators li:not(:first-child):before,
-.content_type_clase_alma_newitalianespresso .slider-indicators li:not(:first-child):after {
-    content: '';
-    display: block;
-    width: 1px;
-    height: 100%;
-    background: rgba(0,0,0,.1);
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.content_type_clase_alma_newitalianespresso .slider-indicators li:after {
-    background: rgba(255,255,255,.2);
-    left: -1px;
-}
-
-.content_type_clase_alma_newitalianespresso .slider-indicators li.active,
-.content_type_clase_alma_newitalianespresso .publisher-navbar li:hover {
-    background-color: transparent;
-    opacity: 1;
-}
-.content_type_clase_alma_newitalianespresso .publisher-navbar #top-navigator {
-    float: left;
-    margin-top: 10px;
-    display: block;
-
-}
-
-.content_type_clase_alma_newitalianespresso .publisher-navbar .dropdown button {
-    width: auto;
-    padding: 0px 10px;
-}
-
-.open > .dropdown-menu {
-    display: block;
-    max-height: 300px;
-    overflow-y: auto;
-}
-
-.content_type_clase_alma_newitalianespresso .publisher-navbar .dropdown button {
-    border: none;
-}
-
-.content_type_clase_alma_newitalianespresso .publisher-navbar .dropdown button:focus {
-    outline: none;
-}
-
-.content_type_clase_alma_newitalianespresso .publisher-navbar .dropdown li {
-    display: list-item;
-    width: auto;
-}
-
-.content_type_clase_alma_newitalianespresso .publisher-navbar .dropdown li a {
-    color: #0095DA;
-    font-weight: bold;
-}
-
-.content_type_clase_alma_newitalianespresso .publisher-navbar .dropdown .caret {
-    display: none;
-}
-
-/* Lists & Titles ************************************************************************************************/
-.content ol,
-.cke_contents ol {
-    list-style: none;
-    margin-bottom: 0;
-    padding: 0;
-}
-
-.content ol.bck-ol2,
-.cke_contents ol.bck-ol2 {
-    margin-bottom: 20px;
-    padding-left: 22px;
-}
-
-.edit .content ol,
-.edit .cke_contents ol {
-    padding-left: 30px;
-}
-
-.content ol li,
-.cke_contents ol li {
-    counter-increment: bck-li-counter 1;
-    position: relative;
-}
-
-.content ol.bck-ol1 li,
-.cke_contents ol.bck-ol1 li,
-h4.bck-title1 {
-    margin: 0;
-    font-size: 2.0rem;
-    font-weight: bold;
-    color: #797A7B;
-    line-height: 2.9rem;
-}
-
-.content ol li:before,
-.cke_contents ol li:before {
-    content: counter(bck-li-counter)'';
-    position: absolute;
-    text-align: right;
-}
-
-.content ol.bck-ol1 li:before,
-.cke_contents ol.bck-ol1 li:before {
-    margin-top: -3px;
-    margin-left: -22px;
-    color: #797A7B;
-    font-size: 2.8rem;
-    font-weight: bold;
-}
-
-.content ol.bck-ol2 li:before,
-.cke_contents ol.bck-ol2 li:before {
-    width: 16px;
-    height: 16px;
-    margin-top: 5px;
-    margin-left: -22px;
-    border-radius: 2px;
-    background: #797A7B;
-    color: #fff;
-    font-size: 1.8rem;
-    line-height: 1.6rem;
-    text-align: center;
-}
-
-/* Tables & Boxes *******************************************************************************************************/
-
-.texto_curso th,
-.texto_curso td {
-    padding: 10px;
-}
-
-.texto_curso th,
-.texto_curso td.bck-td1 {
-    background: #D9DADB;
-}
-
-.texto_curso td.bck-td2 {
-    background: #6F7175;
-    color: #fff;
-}
-
-.bck-box.box-1 {
-    border: 2px solid #6F7175;
-    padding: 10px;
-    margin: 10px 0px;
-}
-
-/* Iconos ***************************************************************************************************************/
-.square-icon,
-.triangle-icon {
-    padding-left: 22px;
-}
-
-.texto_curso p.square-icon,
-.texto_curso p.triangle-icon {
-    margin-bottom: 0;
-}
-
-.square-icon:before,
-.triangle-icon:before {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    margin-top: 9px;
-    margin-left: -22px;
-    background: #797A7B;
-}
-
-.triangle-icon:before{
-    background:
-        linear-gradient(65deg, transparent 4px, #bbb 0) left,
-        linear-gradient(-65deg, transparent 4px, #bbb 0) right;
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
-}
-
-#actividad .player.audio,
-#help-panel-content .player.audio,
-#remote-alert-modal-rich .player.audio {
-    background-color: transparent;
-    background-image: url(images/audio_icon.png);
-    background-position: center center;
-    background-size: 28px 28px;
-}
-
-#actividad .player.audio:hover,
-#help-panel-content .player.audio:hover,
-#remote-alert-modal-rich .player.audio:hover {
-    opacity: .5;
-    filter: alpha(opacity=50);
-}
-
-/* Responsive ***********************************************************************************************************/
-@media only screen and (max-width: 1000px) {
-
-.content_type_clase_alma_newitalianespresso .logo-publisher:before {
-    margin-left: -30px;
-}
-
-}
-
-@media only screen and (max-width: 580px) {
-
-#actividad .carousel-inner .item-container {
-    padding: 80px 50px;
-}
-
-.content_type_clase_alma_newitalianespresso #actividad .content .header .title h3 span.slide_number {
-    right: 50px;
-}
-
-}
-
-
 
 /*----------------------------------------------MEJORAS GENÉRICAS AL ESTILO----------------------------------*/
 
@@ -477,7 +35,7 @@ h4.bck-title1 {
 }
 
 /*----------------HEADER----------------------------*/
-.content_type_clase_AlmaProvisional #actividad .content .header .title {
+.content_type_clase_Almaprovisional #actividad .content .header .title {
     overflow: visible;
 }
 
@@ -498,10 +56,10 @@ and (max-device-width : 480px) {
     #actividad .class_slide {
         padding: 0;
     }
-    .content_type_clase_AlmaProvisional #actividad .content .header .title h3 {
+    .content_type_clase_Almaprovisional #actividad .content .header .title h3 {
         font-size: 22px;
     }
-    .content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number {
+    .content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number {
         line-height: 2.0;
         right: 132px;
         font-size: 25px;
@@ -561,27 +119,27 @@ and (max-device-width : 480px) {
     /*------------*/
 
 /*----------------- BARRA SUPERIOR ------------------------------*/
-    .coursetag_almadieci.content_type_clase_AlmaProvisional .publisher-navbar {
+    .coursetag_almadieci.content_type_clase_Almaprovisional .publisher-navbar {
         border-bottom: 3px solid #249ed1;
     }
 
 /*---*/
 
 /*--------------TITLE--------------------------*/
-    .coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .header {
+    .coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .header {
         padding: 50px 20px 0px 12px;
         margin-left: -34px;
         border-bottom: 5px solid #da3d96;
     }
-    .coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .header .title{
+    .coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .header .title{
         margin-bottom: 7px;
     }
-    .coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .header .title h3 {
+    .coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .header .title h3 {
         color: #da3d96;
         font-weight: 600;
         line-height: 35px;
     }
-    .coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number {
+    .coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number {
         background: #da3d96;
         height: 46px;
         top: 50px;
@@ -592,7 +150,7 @@ and (max-device-width : 480px) {
         border-radius: 0px;
         font-weight: 700;
     }
-    .coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .header .title .area {
+    .coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .header .title .area {
         display: inline-block;
         background: #DA3D96;
         padding: 5px 10px 5px 5px;
@@ -613,7 +171,7 @@ and (max-device-width : 480px) {
 }
 
 /*Barra superior*/
-.coursetag_almadieci.content_type_clase_AlmaProvisional .publisher-navbar #top-navigator .slider-indicators {
+.coursetag_almadieci.content_type_clase_Almaprovisional .publisher-navbar #top-navigator .slider-indicators {
     background: #249ed1;  
 }
 
@@ -1355,70 +913,70 @@ padding-left: 0px;
 
 /*--------------- CAMBIOS EN TITLE POR SECCIONES ----------------*/
 /*Verde*/
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .verde .header {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .verde .header {
     border-bottom: 5px solid #92CD8D;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .verde .header .title h3 {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .verde .header .title h3 {
     color: #92CD8D;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .verde .header .title h3 span.slide_number {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .verde .header .title h3 span.slide_number {
     background: #92CD8D;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .verde .header .title .area {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .verde .header .title .area {
     background: #92CD8D;
 }
 /*Celeste*/
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .celeste .header {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .celeste .header {
     border-bottom: 5px solid #6DC1C3;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .celeste .header .title h3 {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .celeste .header .title h3 {
     color: #6DC1C3;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .celeste .header .title h3 span.slide_number {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .celeste .header .title h3 span.slide_number {
     background: #6DC1C3;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .celeste .header .title .area {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .celeste .header .title .area {
     background: #6DC1C3;
 }
 /*amarillo*/
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .amarillo .header {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .amarillo .header {
     border-bottom: 5px solid #FED65D;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .amarillo .header .title h3 {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .amarillo .header .title h3 {
     color: #FED65D;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .amarillo .header .title h3 span.slide_number {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .amarillo .header .title h3 span.slide_number {
     background: #FED65D;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .amarillo .header .title .area {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .amarillo .header .title .area {
     background: #FED65D;
 }
 
 /*Azul*/
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .azul .header {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .azul .header {
     border-bottom: 5px solid #0e5ba5;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .azul .header .title h3 {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .azul .header .title h3 {
     color: #0e5ba5;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .azul .header .title h3 span.slide_number {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .azul .header .title h3 span.slide_number {
     background: #0e5ba5;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .azul .header .title .area {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .azul .header .title .area {
     background: #0e5ba5;
 }
 
 /*Rojo*/
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .rojo .header {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .rojo .header {
     border-bottom: 5px solid #da3832;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .rojo .header .title h3 {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .rojo .header .title h3 {
     color: #da3832;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .rojo .header .title h3 span.slide_number {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .rojo .header .title h3 span.slide_number {
     background: #da3832;
 }
-.coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .rojo .header .title .area {
+.coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .rojo .header .title .area {
     background: #da3832;
 }
 
@@ -1444,13 +1002,13 @@ and (max-device-width : 480px) {
         padding-left: 0;
         padding-right: 0;
     }
-    .coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .header {
+    .coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .header {
         padding: 70px 0px 0px 13px;
     }
-    .content_type_clase_AlmaProvisional #actividad .content .header .title {
+    .content_type_clase_Almaprovisional #actividad .content .header .title {
         padding-right: 0px;
     }
-    .coursetag_almadieci.content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number {
+    .coursetag_almadieci.content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number {
         top: 0;
         margin-top: auto;
     }
@@ -1467,7 +1025,7 @@ and (max-device-width : 480px) {
 /*----------------------------------------------------------------------------------------------*/
 
 /*-NAVBAR*/
-.activitytag_almanuovoespresso.content_type_clase_AlmaProvisional .publisher-navbar {
+.activitytag_almanuovoespresso.content_type_clase_Almaprovisional .publisher-navbar {
     border-bottom: 2px solid #d52422;
 }
 /* --- PADDING DE LA PÁGINA ---*/
@@ -1475,14 +1033,14 @@ and (max-device-width : 480px) {
     padding-top: 0;
 }
 /* ---- HEADER ---- */
-.activitytag_almanuovoespresso.content_type_clase_AlmaProvisional #actividad .content .header .title {
+.activitytag_almanuovoespresso.content_type_clase_Almaprovisional #actividad .content .header .title {
     background: none;
     padding: 47px 10px 5px 10px;
     border: 2px solid #EE1C29;
     border-top: 0;
     text-align: center;
 }
-.activitytag_almanuovoespresso.content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number {
+.activitytag_almanuovoespresso.content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number {
     line-height: 2.0;
     background: #ee1c29;
     top: 0;
@@ -1492,7 +1050,7 @@ and (max-device-width : 480px) {
     border-radius: 0;
     height: 48px;
 }
-.activitytag_almanuovoespresso.content_type_clase_AlmaProvisional #actividad .content .header .title h3 {
+.activitytag_almanuovoespresso.content_type_clase_Almaprovisional #actividad .content .header .title h3 {
     color: #ee1c29;
     padding-top: 8px;
 }
@@ -1519,10 +1077,10 @@ and (max-device-width : 480px) {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-    .activitytag_almanuovoespresso.content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number,
-    .activitytag_almanuovoespressoazul.content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number,
-    .activitytag_almanuovoespressoverde.content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number,
-    .activitytag_almanuovoespressorosa.content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number
+    .activitytag_almanuovoespresso.content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number,
+    .activitytag_almanuovoespressoazul.content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number,
+    .activitytag_almanuovoespressoverde.content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number,
+    .activitytag_almanuovoespressorosa.content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number
      {
         line-height: 2.0;
         right: 132px;
@@ -1540,7 +1098,7 @@ and (max-device-width : 480px) {
 /*----------------------------------------------------------------------------------------------*/
 
 /*-NAVBAR*/
-.activitytag_almanuovoespressoazul.content_type_clase_AlmaProvisional .publisher-navbar {
+.activitytag_almanuovoespressoazul.content_type_clase_Almaprovisional .publisher-navbar {
     border-bottom: 2px solid #009CAB;
 }
 /* --- PADDING DE LA PÁGINA ---*/
@@ -1548,14 +1106,14 @@ and (max-device-width : 480px) {
     padding-top: 0;
 }
 /* ---- HEADER ---- */
-.activitytag_almanuovoespressoazul.content_type_clase_AlmaProvisional #actividad .content .header .title {
+.activitytag_almanuovoespressoazul.content_type_clase_Almaprovisional #actividad .content .header .title {
     background: none;
     padding: 47px 10px 5px 10px;
     border: 2px solid #009CAB;
     border-top: 0;
     text-align: center;
 }
-.activitytag_almanuovoespressoazul.content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number {
+.activitytag_almanuovoespressoazul.content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number {
     line-height: 2.0;
     background: #009CAB;
     top: 0;
@@ -1565,7 +1123,7 @@ and (max-device-width : 480px) {
     border-radius: 0;
     height: 48px;
 }
-.activitytag_almanuovoespressoazul.content_type_clase_AlmaProvisional #actividad .content .header .title h3 {
+.activitytag_almanuovoespressoazul.content_type_clase_Almaprovisional #actividad .content .header .title h3 {
     color: #009CAB;
     padding-top: 8px;
 }
@@ -1593,7 +1151,7 @@ and (max-device-width : 480px) {
 /*----------------------------------------------------------------------------------------------*/
 
 /*-NAVBAR*/
-.activitytag_almanuovoespressoverde.content_type_clase_AlmaProvisional .publisher-navbar {
+.activitytag_almanuovoespressoverde.content_type_clase_Almaprovisional .publisher-navbar {
     border-bottom: 2px solid #71BF45;
 }
 /* --- PADDING DE LA PÁGINA ---*/
@@ -1601,14 +1159,14 @@ and (max-device-width : 480px) {
     padding-top: 0;
 }
 /* ---- HEADER ---- */
-.activitytag_almanuovoespressoverde.content_type_clase_AlmaProvisional #actividad .content .header .title {
+.activitytag_almanuovoespressoverde.content_type_clase_Almaprovisional #actividad .content .header .title {
     background: none;
     padding: 47px 10px 5px 10px;
     border: 2px solid #71BF45;
     border-top: 0;
     text-align: center;
 }
-.activitytag_almanuovoespressoverde.content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number {
+.activitytag_almanuovoespressoverde.content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number {
     line-height: 2.0;
     background: #71BF45;
     top: 0;
@@ -1618,7 +1176,7 @@ and (max-device-width : 480px) {
     border-radius: 0;
     height: 48px;
 }
-.activitytag_almanuovoespressoverde.content_type_clase_AlmaProvisional #actividad .content .header .title h3 {
+.activitytag_almanuovoespressoverde.content_type_clase_Almaprovisional #actividad .content .header .title h3 {
     color: #71BF45;
     padding-top: 8px;
 }
@@ -1646,7 +1204,7 @@ and (max-device-width : 480px) {
 /*----------------------------------------------------------------------------------------------*/
 
 /*-NAVBAR*/
-.activitytag_almanuovoespressorosa.content_type_clase_AlmaProvisional .publisher-navbar {
+.activitytag_almanuovoespressorosa.content_type_clase_Almaprovisional .publisher-navbar {
     border-bottom: 2px solid #B51E91;
 }
 /* --- PADDING DE LA PÁGINA ---*/
@@ -1654,14 +1212,14 @@ and (max-device-width : 480px) {
     padding-top: 0;
 }
 /* ---- HEADER ---- */
-.activitytag_almanuovoespressorosa.content_type_clase_AlmaProvisional #actividad .content .header .title {
+.activitytag_almanuovoespressorosa.content_type_clase_Almaprovisional #actividad .content .header .title {
     background: none;
     padding: 47px 10px 5px 10px;
     border: 2px solid #B51E91;
     border-top: 0;
     text-align: center;
 }
-.activitytag_almanuovoespressorosa.content_type_clase_AlmaProvisional #actividad .content .header .title h3 span.slide_number {
+.activitytag_almanuovoespressorosa.content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number {
     line-height: 2.0;
     background: #B51E91;
     top: 0;
@@ -1671,7 +1229,7 @@ and (max-device-width : 480px) {
     border-radius: 0;
     height: 48px;
 }
-.activitytag_almanuovoespressorosa.content_type_clase_AlmaProvisional #actividad .content .header .title h3 {
+.activitytag_almanuovoespressorosa.content_type_clase_Almaprovisional #actividad .content .header .title h3 {
     color: #B51E91;
     padding-top: 8px;
 }
