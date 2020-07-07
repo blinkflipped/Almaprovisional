@@ -325,6 +325,7 @@ and (max-device-width : 480px) {
     position: relative;
     width: 30px;
     display: inline-block;
+    text-align: center;
 }
 /*Énfasis 2*/
 .bck-enfasis2 {
@@ -337,6 +338,7 @@ and (max-device-width : 480px) {
     margin-right: 4px;
     position: relative;
     width: 30px;
+    text-align: center;
     display: inline-block;
 }
 
@@ -351,6 +353,7 @@ and (max-device-width : 480px) {
     margin-right: 4px;
     position: relative;
     width: 30px;
+    text-align: center;
     display: inline-block;
 }
 /*Énfasis 4*/
@@ -364,6 +367,7 @@ and (max-device-width : 480px) {
     margin-right: 4px;
     position: relative;
     width: 30px;
+    text-align: center;
     display: inline-block;
 }
 /*Enfasis 12 - Número azul*/
@@ -377,6 +381,7 @@ and (max-device-width : 480px) {
     margin-right: 4px;
     position: relative;
     width: 30px;
+    text-align: center;
     display: inline-block;
 }
 /*Énfasis 13 - Número rojo*/
@@ -390,6 +395,7 @@ and (max-device-width : 480px) {
     margin-right: 4px;
     position: relative;
     width: 30px;
+    text-align: center;
     display: inline-block;
 }
 
