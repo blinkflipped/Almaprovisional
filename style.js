@@ -1,18 +1,18 @@
 (function (blink) {
 	'use strict';
 
-	var AlmaStyle = function () {
+	var AlmaprovisionalStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	AlmaStyle.prototype = {
+	AlmaprovisionalStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
 		bodyClassName: 'content_type_clase_Almaprovisional',
 		extraPlugins: ['image2'],
 		ckEditorStyles: {
-			name: 'alma',
+			name: 'Almaprovisional',
 			styles: [
 
                 { name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
@@ -157,9 +157,9 @@
 		//BK-15873 Quitamos la funcion getEditorStyles para que la herede de basic
 	};
 
-	AlmaStyle.prototype = _.extend({}, new blink.theme.styles.basic(), AlmaStyle.prototype);
+	AlmaprovisionalStyle.prototype = _.extend({}, new blink.theme.styles.basic(), AlmaprovisionalStyle.prototype);
 
-	blink.theme.styles['Almaprovisional'] = AlmaStyle;
+	blink.theme.styles['Almaprovisional'] = AlmaprovisionalStyle;
 
 })( blink );
 
