@@ -1251,3 +1251,223 @@ and (max-device-width : 480px) {
  .activitytag_almanuovoespressorosa .cke_contents ol.bck-ol2 li:before {
     background: #B51E91;
 }
+
+
+/* OVERRIDES FOR INHERITANCE */
+    .is_app.content_type_clase_Almaprovisional {
+        padding-top: 0px;
+    }
+
+    .content_type_clase_Almaprovisional #actividad .content .header .title img,
+    .content_type_clase_Almaprovisional #actividad .content .header .chapter {
+        display: none;
+    }
+
+    .content_type_clase_Almaprovisional #actividad .content .header {
+        height: auto;
+        overflow: hidden;
+        border: none;
+    }
+
+    .content_type_clase_Almaprovisional #actividad .content .header .title {
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 15px;
+        padding-right: 100px;
+        line-height: 2.7rem;
+    }
+
+    .content_type_clase_Almaprovisional #actividad .content .header .title h3 {
+        margin: 0;
+        color: #58585A;
+        font-size: 2.7rem;
+        font-weight: bold;
+        line-height: 2.7rem;
+    }
+
+    .content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number {
+        position: absolute;
+        top: 60px;
+        right: 90px;
+        display: block;
+        width: 90px;
+        border-radius: 10px;
+        background: #58585A;
+        padding: 0 25px;
+        color: #fff;
+        text-align: right;
+        line-height: 7rem;
+    }
+
+    .content_type_clase_Almaprovisional .publisher-navbar {
+        position: fixed;
+        top: 44px;
+        background: #ffffff;
+        width: 100%;
+        left: 0;
+        height: 58px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 0 9px;
+    }
+
+    .is_app.content_type_clase_Almaprovisional .publisher-navbar {
+        position: sticky;
+        top: 0px;
+    }
+
+    .content_type_clase_Almaprovisional .publisher-navbar .navbar-content {
+        max-width: 960px;
+        margin: 0 auto;
+        padding-left: 90px;
+        padding-right: 50px;
+    }
+
+    .content_type_clase_Almaprovisional .logo-publisher {
+        display: block;
+        margin-left: -48px;
+    }
+    .content_type_clase_Almaprovisional .logo-publisher:before {
+        content: " ";
+        background-image: url(logoALMA.png);
+        height: 36px;
+        background-repeat: no-repeat;
+        width: 100px;
+        margin-left: -50px;
+        margin-top: 10px;
+        margin-right: 10px;
+        float: left;
+        background-size: contain;
+    }
+
+    .content_type_clase_Almaprovisional .slider-indicators {
+        padding: 0;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        width: 5000px;
+        bottom: 0px;
+        left: 0px;
+        z-index: 0;
+        background-color: #ffffff;
+        color: #00599C;
+    }
+
+    .content_type_clase_Almaprovisional .publisher-navbar #top-navigator .slider-indicators {
+        background: #D52422;
+    }
+    .content_type_clase_Almaprovisional .publisher-navbar #top-navigator .slider-indicators {
+        border-radius: 120px;
+    }
+
+    .content_type_clase_Almaprovisional .publisher-navbar li {
+        border-radius: 5px;
+        border: none;
+        background-color: transparent;
+        color: #ffffff;
+        vertical-align: middle;
+        margin: 0px 5px;
+        text-indent: 0px;
+        line-height: 3.5rem;
+        font-size: 2.0rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .content_type_clase_Almaprovisional .slider-indicators:after {
+        content: '';
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+
+    .content_type_clase_Almaprovisional .slider-indicators li {
+        width: 35px;
+        height: 35px;
+        background-color: transparent;
+        margin: 0px;
+        text-align: center;
+        opacity: 0.5;
+        position: relative;
+        float: left;
+    }
+
+    .content_type_clase_Almaprovisional .slider-indicators li:first-child {
+        margin-left: 10px;
+    }
+
+    .content_type_clase_Almaprovisional .slider-indicators li:not(:first-child):before,
+    .content_type_clase_Almaprovisional .slider-indicators li:not(:first-child):after {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 100%;
+        background: rgba(0,0,0,.1);
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .content_type_clase_Almaprovisional .slider-indicators li:after {
+        background: rgba(255,255,255,.2);
+        left: -1px;
+    }
+
+    .content_type_clase_Almaprovisional .slider-indicators li.active,
+    .content_type_clase_Almaprovisional .publisher-navbar li:hover {
+        background-color: transparent;
+        opacity: 1;
+    }
+    .content_type_clase_Almaprovisional .publisher-navbar #top-navigator {
+        float: left;
+        margin-top: 10px;
+        display: block;
+
+    }
+
+    .content_type_clase_Almaprovisional .publisher-navbar .dropdown button {
+        width: auto;
+        padding: 0px 10px;
+    }
+
+    .content_type_clase_Almaprovisional .publisher-navbar .dropdown button {
+        border: none;
+    }
+
+    .content_type_clase_Almaprovisional .publisher-navbar .dropdown button:focus {
+        outline: none;
+    }
+
+    .content_type_clase_Almaprovisional .publisher-navbar .dropdown li {
+        display: list-item;
+        width: auto;
+    }
+
+    .content_type_clase_Almaprovisional .publisher-navbar .dropdown li a {
+        color: #0095DA;
+        font-weight: bold;
+    }
+
+    .content_type_clase_Almaprovisional .publisher-navbar .dropdown .caret {
+        display: none;
+    }
+
+@media only screen and (max-width: 1000px) {
+
+    .content_type_clase_Almaprovisional .logo-publisher:before {
+        margin-left: -30px;
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+
+    #actividad .carousel-inner .item-container {
+        padding: 80px 50px;
+    }
+
+    .content_type_clase_Almaprovisional #actividad .content .header .title h3 span.slide_number {
+        right: 50px;
+    }
+
+}
+
