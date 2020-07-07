@@ -99,7 +99,7 @@ and (max-device-width : 480px) {
         background: #97cbe1 !important;
     }
     .coursetag_almadieci #indice .unit-content .header.default:after {
-        background-image: url(/themes/responsive/assets/styles/AlmaProvisional/logoALMA.png);
+        background-image: url(/themes/responsive/assets/styles/alma_newitalianespresso/logoALMA.png);
         content: "";
         padding: 42px;
         right: 39px;
